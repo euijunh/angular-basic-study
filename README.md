@@ -6,5 +6,8 @@
 
 Angular-cli -> node 6.9.0 이상
 
+npm install -g @angular/cli
+
+
 
 
