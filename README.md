@@ -9,5 +9,16 @@ Angular-cli -> node 6.9.0 이상
 npm install -g @angular/cli
 
 
+### front-end
 
+- src/
 
+index.html : 사용자가 볼 페이지
+
+main.ts : 사용자가 index.html을 처음 받았을 떄 가장 먼저 실행되는 파일
+
+- 문법
+
+@ : 데코레이터
+
+<app-root> = (app.component.ts, app.component.html, app.component.scss)

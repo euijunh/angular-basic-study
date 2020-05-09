@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ // 컴포넌트
+    AppComponent,
+    HelloComponent
   ],
-  imports: [
+  imports: [  // 다른 모듈들
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [], // view가 없는 컴포넌트가 아닌 서비스 로직
+  bootstrap: [AppComponent] // 처음 실행할 컴포넌트 지정
 })
 export class AppModule { }
