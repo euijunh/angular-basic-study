@@ -22,3 +22,7 @@ main.ts : 사용자가 index.html을 처음 받았을 떄 가장 먼저 실행�
 @ : 데코레이터
 
 <app-root> = (app.component.ts, app.component.html, app.component.scss)
+
+- typescript
+
+자바스크립트를 보안(상위셋)
