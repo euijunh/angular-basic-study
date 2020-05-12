@@ -60,3 +60,19 @@ class App {
 }
 
 ```
+
+angular CLI 에서 편리하게 컴포넌트 만드는 방법
+
+ex) header라는 컴포넌트를 만들 때 -> ng generate component header 
+
+축약형도 제공한다
+
+ex) footer 생성 -> ng g c footer
+
+생성하면 app.module.ts 에 자동으로 등록된다. 
+
+자식 컴포넌트는 루트(app.module.ts)에서 관리하지 않고 부모 컴포넌트에서 관리한다.
+
+자식컴포넌트 또한 angular CLI 로 생성이 가능하다.
+
+ex) section 하위에 time-display 라는 컴포넌트를 생성 -> ng g c section/time-display
