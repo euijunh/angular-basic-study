@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-buttons',
@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ButtonsComponent implements OnInit {
 
+  @Output()
+
   constructor() { }
+
+  start(event:MouseEvent) {
+    console.log(event)
+  }
 
   ngOnInit(): void {
   }
