@@ -9,6 +9,10 @@ export class SectionComponent implements OnInit {
 
   constructor() { }
 
+  startTime(event) {
+    console.log(event)
+  }
+
   ngOnInit(): void {
   }
 
