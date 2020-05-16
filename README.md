@@ -76,3 +76,8 @@ ex) footer 생성 -> ng g c footer
 자식컴포넌트 또한 angular CLI 로 생성이 가능하다.
 
 ex) section 하위에 time-display 라는 컴포넌트를 생성 -> ng g c section/time-display
+
+@Output : 자식컴포넌트에서 부모컴포넌트로 데이터를 전달
+
+@Input : 부모컴포넌트에서 자식컴포넌트로 데이터를 전달
+

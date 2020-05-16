@@ -7,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
+  present = '안녕';
+
   constructor() { }
 
   startTime(event) {
-    console.log(event)
+    this.present = event;
   }
 
   ngOnInit(): void {
