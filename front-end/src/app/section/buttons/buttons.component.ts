@@ -13,8 +13,12 @@ export class ButtonsComponent implements OnInit {
 
   constructor() { }
 
-  start(event:MouseEvent) {
-    this.clickEvent.emit('push');
+  // start(event:MouseEvent) {
+  //   this.clickEvent.emit('start');
+  // }
+
+  executeButton(command:string) {
+    this.clickEvent.emit(command);
   }
 
   ngOnInit(): void {

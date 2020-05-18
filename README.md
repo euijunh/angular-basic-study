@@ -81,3 +81,7 @@ ex) section 하위에 time-display 라는 컴포넌트를 생성 -> ng g c secti
 
 @Input : 부모컴포넌트에서 자식컴포넌트로 데이터를 전달
 
+컴포넌트를 어떻게 나누는가가 중요하다. 
+컴포넌트 설계의 중요성
+재사용성이 없다면 컴포넌트를 나눌 필요가 없다. (time-display 와 buttons)
+
